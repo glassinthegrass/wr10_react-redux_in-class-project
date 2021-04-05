@@ -48,4 +48,4 @@ const mapStateToProps = reduxState => {
   return reduxState;
 }
 
-export default connect(mapStateToProps, { loginUser })(ProductListContainer)
+export default connect(mapStateToProps)(ProductListContainer)
